@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .product{
+           border: 2px solid black;
+           width: 250px;
+           text-align: center;
+           border-radius: 12px;
+           padding: 15px;
+           margin: 10px;
+           background-color: rgb(44, 5, 5);
+           /* box-shadow: X axis Y axis SPread-Radius Color; */
+           box-shadow:    2px     4px   8px     rgb(229, 6, 6);
+        }
+
+         .product:hover{
+            box-shadow:    2px     4px   15px  blue;
+            transition: 2s;
+         }
+
+
+        .product img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 11px;
+            border: 2px solid white;
+        }
+
+        .product button{
+            background-color: orange;
+            border: none;
+            padding: 10px;
+            border-radius: 12px;
+            color: white;
+        }
+
+        .product h2{
+            
+            color: white;
+        }
+
+        .product p{
+            color: white;
+        }
+
+        body{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="product">
+        <img src="https://images.pexels.com/photos/5112643/pexels-photo-5112643.jpeg" >
+        <h2>Filter Coffee</h2>
+        <p>Rs 199.00</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.pexels.com/photos/11154961/pexels-photo-11154961.jpeg" >
+        <h2>Cookie</h2>
+        <p>Rs 150.00</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.pexels.com/photos/10699891/pexels-photo-10699891.jpeg" >
+        <h2>CupCake</h2>
+        <p>Rs 99.00</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.pexels.com/photos/11299735/pexels-photo-11299735.jpeg" >
+        <h2>Cold Coffee</h2>
+        <p>Rs 179.00</p>
+        <button>Buy Now</button>
+    </div>
+</body>
+</html>
